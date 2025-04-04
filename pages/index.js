@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Home = () => {
   return (
@@ -7,10 +8,10 @@ const Home = () => {
       <p>Hi, I'm Johana Romero, a Computer Programming and Analysis student.</p>
       <nav>
         <ul>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/experience">Experience</a></li>
-          <li><a href="/resume">Resume & Cover Letter</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><Link href="/projects"><a>Projects</a></Link></li>
+          <li><Link href="/experience"><a>Experience</a></Link></li>
+          <li><Link href="/resume"><a>Resume & Cover Letter</a></Link></li>
+          <li><Link href="/contact"><a>Contact</a></Link></li>
         </ul>
       </nav>
     </div>

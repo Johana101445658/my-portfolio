@@ -1,14 +1,13 @@
-import React from 'react';
+import Link from 'next/link';
 
 const Resume = () => {
   return (
-    <div style={{ backgroundColor: '#ADD8E6', color: '#000', minHeight: '100vh', padding: '20px' }}>
-      <h1>Resume & Cover Letter</h1>
-      <ul>
-        <li><a href="/resume.pdf" target="_blank">Download Resume</a></li>
-        <li><a href="/cover-letter.pdf" target="_blank">Download Cover Letter</a></li>
-      </ul>
-      <a href="/">Back to Home</a>
+    <div>
+      <h1>Resume</h1>
+      <p>This is my resume and cover letter.</p>
+      <nav>
+        <Link href="/"><a>Home</a></Link>
+      </nav>
     </div>
   );
 };
