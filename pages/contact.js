@@ -1,5 +1,8 @@
 // pages/contact.js
-import { Mail, Github, Linkedin } from "lucide-react";
+import '../styles/globals.css'; 
+import '../components/Navbar'; 
+import '../components/ParticlesBackground';
+
 
 export default function Contact() {
   return (

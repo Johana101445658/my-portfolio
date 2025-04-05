@@ -1,5 +1,9 @@
 // pages/resume.js
 import Head from "next/head";
+import '../styles/globals.css'; 
+import '../components/Navbar'; 
+import '../components/ParticlesBackground'; 
+
 
 export default function Resume() {
   return (
