@@ -29,5 +29,3 @@ export default function Projects() {
   );
 }
 
-
-export default Projects;
