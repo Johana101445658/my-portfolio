@@ -1,9 +1,9 @@
 // pages/index.js
 import Link from "next/link";
-//import ParticlesBackground from "@/components/ParticlesBackground";
+import ParticlesBackground from "@/components/ParticlesBackground";
+import '../styles/globals.css'; 
 import '../components/Navbar'; 
 import '../components/ParticlesBackground';
-import React from 'react';
 
 
 export default function Home() {

@@ -1,5 +1,7 @@
 module.exports = {
-    extends: ['eslint:recommended', 'plugin:react/recommended'],
+    extends: ['next/core-web-vitals'], 
+    rules: {
     
+    },
   };
   
