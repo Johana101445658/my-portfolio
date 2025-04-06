@@ -1,15 +1,9 @@
-import '../styles/globals.css'; 
-import '../components/Navbar'; 
-import '../components/ParticlesBackground'; 
+import '../styles/globals.css';  
 
-
-export default function App({ Component, pageProps }) {
-  return (
-    <>
-      <Navbar />
-      <div className="pt-20"> {/* Navivar Space */}
-        <Component {...pageProps} />
-      </div>
-    </>
-  );
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />;
 }
+
+export default MyApp;
+
+
