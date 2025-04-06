@@ -1,13 +1,12 @@
-import Link from 'next/link';
+import React from 'react';
 
 const Experience = () => {
   return (
-    <div>
-      <h1>Experience</h1>
-      <p>Here is some of my professional experience.</p>
-      <nav>
-        <Link href="/"><a>Home</a></Link>
-      </nav>
+    <div style={{ backgroundColor: '#ADD8E6', color: '#000', minHeight: '100vh', padding: '20px' }}>
+      <h1>My Experience</h1>
+      <p><strong>Technical Support & Customer Service</strong> - 3+ years in telecommunications.</p>
+      <p><strong>Computer Programming & Analysis Student</strong> - George Brown College.</p>
+      <a href="/">Back to Home</a>
     </div>
   );
 };
