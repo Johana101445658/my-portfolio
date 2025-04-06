@@ -1,8 +1,13 @@
-const path = require('path');
+import path from 'path';
 
-module.exports = {
-  webpack(config) {
-    config.resolve.alias['@'] = path.join(__dirname);
+const nextConfig = {
+  reactStrictMode: true,
+  webpack(config, { isServer }) {
+    if (!isServer) {
+      config.resolve.fallback = { fs: false };
+    }
     return config;
   },
 };
+
+export default nextConfig;
