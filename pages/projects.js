@@ -1,7 +1,4 @@
 // pages/project.js
-import '../styles/globals.css'; 
-import '../components/Navbar'; 
-import '../components/ParticlesBackground'; 
 
 export default function Projects() {
   return (

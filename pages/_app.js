@@ -1,7 +1,5 @@
-import '../styles/globals.css'; 
-import '../components/Navbar'; 
-import '../components/ParticlesBackground'; 
-
+import '@/styles/globals.css';
+import Navbar from '@/components/Navbar';
 
 export default function App({ Component, pageProps }) {
   return (
