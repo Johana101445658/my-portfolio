@@ -2,9 +2,13 @@ import Link from 'next/link';
 import Navbar from "./Navbar";
 
 
-const Projects = () => {
+export default function Projects() {
   return (
-    <div>
+    <>
+      <Navbar />
+      <main>
+
+   <div>
       <h1>Projects</h1>
       <p>Take a look at the projects I have worked on.</p>
       <nav>
