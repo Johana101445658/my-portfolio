@@ -5,7 +5,12 @@ const Home = () => {
   return (
     <div style={{ backgroundColor: '#ADD8E6', color: '#000', minHeight: '100vh', padding: '20px' }}>
       <h1>Welcome to My Portfolio</h1>
-      <p>Hi, I'm Johana Romero, a Computer Programming and Analysis student.</p>
+      <h2>About Me</h2>
+<p>
+  I am a Computer Programming and Analysis student at George Brown College. I have hands-on
+  experience in full-stack development, agile methodologies, and application debugging. 
+  I'm passionate about problem-solving, improving processes, and providing exceptional IT support.
+</p>
       <nav>
         <ul>
           <li><Link href="/projects"><a>Projects</a></Link></li>
