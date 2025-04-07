@@ -1,9 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
+import Navbar from "./Navbar";
 
-const Home = () => {
+export default function Home() {
   return (
-    <div style={{ backgroundColor: '#ADD8E6', color: '#000', minHeight: '100vh', padding: '20px' }}>
+    <>
+      <Navbar />
+      { <div style={{ backgroundColor: '#ADD8E6', color: '#000', minHeight: '100vh', padding: '20px' }}>
       <h1>Welcome to My Portfolio</h1>
       <h2>About Me</h2>
 <p>
@@ -23,5 +26,8 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home;}
+    </>
+  );
+}
 
