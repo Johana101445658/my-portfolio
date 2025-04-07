@@ -1,10 +1,9 @@
-// pages/Navbar.js
-import Link from "next/link";
-import styles from "../styles/Navbar.module.css";
+import Link from 'next/link';
+import styles from '../styles/Navbar.module.css';
 
 export default function Navbar() {
   return (
-    <nav className={styles.navbar}>
+    <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li><Link href="/">Home</Link></li>
         <li><Link href="/about">About Me</Link></li>
@@ -16,3 +15,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
