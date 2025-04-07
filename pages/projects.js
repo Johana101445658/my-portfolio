@@ -14,6 +14,8 @@ export default function Projects() {
       <nav>
         <Link href="/"><a>Home</a></Link>
       </nav>
+     </main>
+    </>
     </div>
   );
 };
