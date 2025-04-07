@@ -1,29 +1,30 @@
-.navbar {
+.nav {
+  background-color: #ffffffcc;
+  padding: 1rem;
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  z-index: 999;
-  padding: 1rem 2rem;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navList {
   display: flex;
-  gap: 1.5rem;
-  list-style: none;
   justify-content: center;
-  margin: 0;
-  padding: 0;
+  list-style: none;
+  gap: 2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navList a {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
-  transition: color 0.3s ease;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
 .navList a:hover {
   color: #0070f3;
 }
+
